@@ -5,6 +5,7 @@ const app = express();
 
 app.get('/home', function(req, res) {
     res.send('<h1>YO supp!!</h1>');
+    console.log(req);
 });
 
 app.listen(port, function(err) {
