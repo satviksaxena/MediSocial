@@ -7,6 +7,7 @@ app.get('/home', function(req, res) {
     res.send('<h1>YO supp!!</h1>');
     // console.log(req);
     //cheking the push 
+    //checking push 2 
 });
 
 app.listen(port, function(err) {
