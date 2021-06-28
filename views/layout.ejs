@@ -1,0 +1,19 @@
+<html>
+<header>
+    <title>
+        <%=title %>
+    </title>
+    <link rel="stylesheet" href="/css/layout.css">
+    <%- style %>
+</header>
+
+<body>
+    <%- include('_header'); %>
+
+        <%- body %>
+
+            <%-include ('_footer'); %>
+                <%- script %>
+</body>
+
+</html>
